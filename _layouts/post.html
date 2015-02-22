@@ -1,0 +1,63 @@
+{% include header.html %}
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-md-9">
+          <div class="article">
+            <div class="well">
+                <h1 class="posttitle"><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
+            {% if site.comments == true and page.comments == true and site.disqus != '' %}
+                <p class="author"><a href="#disqus_thread">Comments</a></p>
+            {% endif %}
+            <div class="post-content">
+                <a href="http://b.hatena.ne.jp/entry/{{ site.url}}{{ site.baseurl}}{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-title="{{ page.title }} - {{ site.name }}" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                   data-url="{{ site.url}}{{ site.baseurl}}{{ page.url }}"
+                   data-text="{{ page.title }} - {{ site.name }}" >Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+            <nav class="tags">
+                <ul>
+                    {% for tag in page.tags %}
+                    <li><a href="{{ site.baseurl }}/tags.html#tag_{{ tag }}">{{ tag }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+            <div class="clear"></div>
+            {{ content }}
+            </div>
+            {% if page.comments %}
+            <div id="disqus_thread">
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+            {% endif %}
+                <hr>
+                <a href="http://b.hatena.ne.jp/entry/{{ site.url}}{{ site.baseurl}}{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-title="{{ page.title }} - {{ site.name }}" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+                <a href="https://twitter.com/share" class="twitter-share-button"
+                   data-url="{{ site.url}}{{ site.baseurl}}{{ page.url }}"
+                   data-text="{{ page.title }} - {{ site.name }}" >Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+            </div>
+
+          </div>
+          <div class="pagination">
+              {% if page.next %}
+                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">&lt;&lt; 「{{ page.next.title }}」</a>
+              {% endif %}
+              {% if page.previous %}
+                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">「{{ page.previous.title }}」 &gt; &gt;</a>
+              {% endif %}
+        </div>
+
+
+        </div>
+    </div>
+</div>
+
+{% include disqus-comments.html %}
+{% include footer.html %}

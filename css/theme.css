@@ -1,0 +1,109 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.copyright {
+    color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #428BCA;
+}
+
+.sidebar h1 {
+    color: #F29A9A;
+    font-size: 1.3em;
+}
+
+.sidebar a {
+    color: #428bca;
+}
+
+.sidebar li {
+    margin-top: .7em;
+    line-height: 1em;
+}
+
+.sidebar a:hover {
+    color: #3071a9;
+}
+
+.container-left {
+    margin: 0;
+}
+
+.well h1 {
+    color: #F29A9A;
+    font-size: 1.5em;
+}
+
+.well h1 a{
+    font-size: 1.5em;
+}
+
+h1.posttitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.author {
+    color: #F29A9A;
+}
+
+.author a {
+    color: #E27676;
+}
+
+h2{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.navbar-inverse{
+    background-color: #adadad;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+    background-color: #5A5A5A;
+}
+
+
+h3{
+    font-size: 17px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #2C2C2C;
+}
+
+nav.tags li{
+    float: left;
+    list-style-type: none;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    background: #D0D0D0;
+    font-size: 12px
+
+}
+
+nav.tags ul{
+    padding-left: 1em;
+}
+
+.clear{
+    clear: both;
+}
