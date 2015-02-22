@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}...{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="http://takudo.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
+    <meta name="twitter:description"
+          content="{% if page.description %}{{ page.description }}...{% else %}{{ site.description }}{% endif %}">
+
+    <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">-->
+
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
 
-    <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">-->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/github.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
