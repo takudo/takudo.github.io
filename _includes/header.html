@@ -7,12 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <meta itemprop="name" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
+    <meta name="description"
+          content="{% if page.description %}{{ page.description }}...{% else %}{{ site.description }}{% endif %}">
+
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
     <meta property="og:type" content="blog">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
     <meta property="og:description" content="{% if page.description %}{{ page.description }}...{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="http://takudo.github.io/">
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
     <meta name="twitter:description"
