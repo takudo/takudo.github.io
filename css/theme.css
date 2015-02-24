@@ -11,27 +11,27 @@ body {
     text-align: center;
 }
 
-.footer a {
-    color: #428BCA;
-}
+/*.footer a {*/
+/*color: #428BCA;*/
+/*}*/
 
 .sidebar h1 {
     color: #F29A9A;
     font-size: 1.3em;
 }
 
-.sidebar a {
-    color: #428bca;
-}
+/*.sidebar a {*/
+/*color: #428bca;*/
+/*}*/
 
 .sidebar li {
     margin-top: .7em;
     line-height: 1em;
 }
 
-.sidebar a:hover {
-    color: #3071a9;
-}
+/*.sidebar a:hover {*/
+/*color: #3071a9;*/
+/*}*/
 
 .container-left {
     margin: 0;
@@ -39,12 +39,12 @@ body {
 
 .well h1 {
     color: #F29A9A;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-.well h1 a{
-    font-size: 1.5em;
-}
+/*.well h1 a{*/
+/*font-size: 1.5em;*/
+/*}*/
 
 h1.posttitle{
     margin-top: 20px;
@@ -60,7 +60,7 @@ h1.posttitle{
 }
 
 h2{
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -106,4 +106,23 @@ nav.tags ul{
 
 .clear{
     clear: both;
+}
+
+
+a{
+    color: #2C2C2C;
+}
+
+.well h1.posttitle a:hover {
+    color: #D0D0D0;
+}
+
+a:hover, a:focus {
+    color: #D0D0D0;
+    text-decoration: underline;
+}
+
+.tags a:hover,
+.footer a:hover{
+    color: #fff;
 }

@@ -197,7 +197,9 @@ akka, spark, elasticsearch
 
 # 15:00-15:30	Java ラブなヌーラボにおける Scala + Playframework 体験記 株式会社ヌーラボ 吉澤さん (@ussy00)
 
+<div style="width:400px">
 <script async class="speakerdeck-embed" data-id="5f17cbef16c5431fa1c6bc4dc0eb529f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
 
 * nulab福岡にある
 	* 東京は渋谷にあるよ
@@ -402,8 +404,6 @@ http://daiksy.hatenablog.jp/entry/2015/02/22/231144
 		* ☆play-like-adapter（DSLきついから、Playらい行くにかけるように）
 	* DDDの話
 		* ユビキタス言語に沿った設計にする
-
-## 質問タイム
 
 
 ---
