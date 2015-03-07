@@ -38,6 +38,10 @@ body {
     margin: 0;
 }
 
+.well{
+    background-color: #fff;
+}
+
 .well h1 {
     color: #F29A9A;
     font-size: 2em;
@@ -66,13 +70,13 @@ h2{
 }
 
 .navbar-inverse{
-    background-color: #adadad;
-    border-color: rgba(0, 0, 0, 0);
+    background-color: #D7E7FA;
+    border: none;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
-    background-color: #5A5A5A;
-}
+/*.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{*/
+    /*background-color: #5A5A5A;*/
+/*}*/
 
 
 h3{
