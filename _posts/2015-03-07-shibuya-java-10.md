@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "勉強会メモ：第十回 #渋谷java @渋谷クロスタワー12F ビズリーチ"
-date: 2015-03-10 20:00:00 +0900
+date: 2015-03-07 22:00:00 +0900
 comments: false
 tags: 勉強会 java 渋谷Java
 description: 勉強会 java 渋谷Java k.hasunuma 「Date and Time APIのTemporalAdjuster活用法」 nabedge「あなたのプロジェクトで気軽にjavaをバージョンアップするために必要なこと」 emaggame 「Droolsについて」 lino 「Jenkins実践入門第二版What's New」 n_agetsu 「Tomcat実装から学ぶClassLoaderLeak」 masakkuma 「SonarQubeについて」 komiya_atsushi jflute 「Java8 stream() にススメ (わりと入門)」 kawachi「最小Hello World!チャレンジ」
