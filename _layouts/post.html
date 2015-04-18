@@ -24,6 +24,11 @@
                 </ul>
             </nav>
             <div class="clear"></div>
+            {% if page.header_img %}
+            <div>
+                <img style="max-width: 100%" src="{{ page.header_img }}">
+            </div>
+            {% endif %}
             <div style="float: right;">
                 {% include ad/adsense-sp-rectangle.html %}
             </div>

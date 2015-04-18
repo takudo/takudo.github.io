@@ -18,6 +18,13 @@ layout: default
                 </ul>
             </nav>
             <div class="clear"></div>
+
+            {% if post.header_img %}
+            <div>
+                <img style="max-width: 100%" src="{{ post.header_img }}">
+            </div>
+            {% endif %}
+
             {% if post.content contains '<!--more-->' %}
                 {{ post.content | remove: '-->' }}-->
                 <hr>

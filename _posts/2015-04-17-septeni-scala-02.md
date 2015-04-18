@@ -5,12 +5,11 @@ date: 2015-04-17 19:00:00 +0900
 comments: false
 tags: 勉強会 septeni scala ddd
 description: 勉強会 septeni scala ddd 最近良く来るベルサール新宿グラント（JAWSDAYS, JJUG CCC） かとじゅんさんのほう スライドじゃなくコードベースでの説明 実践DDD本を読み始めたばかり（1章途中）くらいだけどなんとなく言ってる・書いてあることが分かる感じがあった コード(https://github.com/j5ik2o/spetstore)はDDDの勉強にすごくなりそう 原田さんのほう cacooとコードレビューをその場でデモしてくれたのはすごく良かった スプリント内でみんなが目標（タスク消化、プルリク消化）に向かっていけてる（いけてそうな）いい会社なのかな？と思った
+header_img: https://connpass-tokyo.s3.amazonaws.com/thumbs/f1/89/f189427f13dd7fd9a05f64120b957b17.png
 
 ---
 
 http://septeni-scala.connpass.com/event/13129/
-
-<img src="https://connpass-tokyo.s3.amazonaws.com/thumbs/f1/89/f189427f13dd7fd9a05f64120b957b17.png">
 
 ---
 

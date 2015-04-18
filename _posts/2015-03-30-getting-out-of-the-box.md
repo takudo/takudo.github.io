@@ -8,7 +8,7 @@ description: 読書 自分の小さな「箱」から脱出する方法 自己�
 
 ---
 
-<iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=takudo09-22&o=9&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=4479791779" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<a href="http://www.amazon.co.jp/gp/product/4479791779/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=4479791779&linkCode=as2&tag=takudo09-22"><img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4479791779&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=takudo09-22" ></a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=takudo09-22&l=as2&o=9&a=4479791779" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 この本を読みました。
 自己啓発系にあたる本はたぶん初めて読みました。
