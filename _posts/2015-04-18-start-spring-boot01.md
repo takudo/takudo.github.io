@@ -3,7 +3,7 @@ layout: post
 title: "最初の Spring-boot x Gradle x IntelliJ（スケルトンアプリの作成とデバッグ実行まで）"
 date: 2015-04-19 01:00:00 +0900
 comments: false
-tags: Java spring-boot
+tags: Java spring-boot gradle intellij 
 description: Java spring-boot gradle intellij 
 header_img: https://qiita-image-store.s3.amazonaws.com/0/34165/e8e89c9f-fa76-3e99-b279-cbf4b3d37c55.jpeg
 
