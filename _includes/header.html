@@ -17,6 +17,12 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}...{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="http://takudo.github.io/">
 
+
+    {% if page.header_img %}
+    <meta property="og:image" content="{{ page.header_img }}">
+    {% endif %}
+
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}">
     <meta name="twitter:description"
