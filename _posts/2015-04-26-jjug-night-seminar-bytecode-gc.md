@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2015-04-24 JJUG ナイトセミナ 「Javaのプログラムはどうやって動いているの?」"
+title: "2015-04-24 JJUG ナイトセミナ 「Javaのプログラムはどうやって動いているの?」 #jjug"
 date: 2015-04-26 21:00:00 +0900
 comments: false
 tags: 勉強会 JJUG Java 
