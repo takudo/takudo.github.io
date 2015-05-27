@@ -3,6 +3,12 @@ body {
     line-height: 2;
 }
 
+p{
+    margin: 0;
+}
+
+
+
 .copyright {
     color: #ffffff;
 }
@@ -29,12 +35,17 @@ body {
     line-height: 1em;
 }
 
+.sidebar div{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 /*.sidebar a:hover {*/
 /*color: #3071a9;*/
 /*}*/
 
 .container-left {
-    margin: 0;
+    margin: auto;
 }
 
 .well{
@@ -53,6 +64,7 @@ body {
 h1.posttitle{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 3em;
 }
 
 .author {
@@ -69,7 +81,7 @@ h2{
 }
 
 .navbar-inverse{
-    background-color: #D7E7FA;
+    background-color: #F29A9A;
     border: none;
 }
 
@@ -88,6 +100,7 @@ h4{
 
 .navbar-inverse .navbar-brand {
     color: #2C2C2C;
+    font-weight: bold;
 }
 
 nav.tags li{
@@ -153,4 +166,14 @@ p.copyright{
 .img img{
     /*max-width: 100%;*/
     max-height: 400px;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.post-content li{
+    margin-bottom: 10px;
+
 }

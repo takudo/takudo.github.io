@@ -30,6 +30,8 @@ $ brew install gradle
 
 ファイル作ります（[コピペ](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#getting-started-gradle-installation)）
 
+build.gradle
+
 ```
 buildscript {
     repositories {
